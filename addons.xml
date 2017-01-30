@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+	<addon id="repository.iittaalliia" name="IIttaalliia Repository" version="1.0" provider-name="IIttaalliia">
+		<extension point="xbmc.addon.repository" name="IIttaalliia Repository">
+			<info compressed="false">https://raw.githubusercontent.com/iittaalliia/kodi/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/iittaalliia/kodi/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/iittaalliia/kodi/master/zips</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>IIttaalliia Repository</summary>
+			<description>IIttaalliia Repository</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+</addons>
