@@ -14,7 +14,7 @@
 	</addon>
 	<addon id="plugin.video.iittaa.cattolica" name="TV Cattolica" version="1.0" provider-name="Iittaalliia">
 		<requires>
-			<import addon="xbmc.python" />
+			<import addon="xbmc.python" version="2.1.0"/>
 		</requires>
 		<extension point="xbmc.python.pluginsource" library="default.py">
 			<provides>video</provides>
