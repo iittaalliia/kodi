@@ -12,4 +12,17 @@
 			<platform>all</platform>
 		</extension>
 	</addon>
+	<addon id="plugin.video.iittaa.cattolica" name="TV Cattolica" version="1.0" provider-name="Iittaalliia">
+		<requires>
+			<import addon="xbmc.python" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">TV Cattolica</summary>
+			<description lang="en">TV Cattolica</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
 </addons>
